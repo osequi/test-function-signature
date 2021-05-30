@@ -1,5 +1,5 @@
 import { Simple1, Simple2 } from "./Simple";
-import { Nested1, Nested2 } from "./Nested";
+import { Nested1, Nested1a, Nested2c } from "./Nested";
 
 export function Home() {
   return (
@@ -14,7 +14,10 @@ export function Home() {
         Nested1: <Nested1 />
       </li>
       <li key={4}>
-        Nested2: <Nested2 />
+        Nested1a: <Nested1a />
+      </li>
+      <li key={5}>
+        Nested2c: <Nested2c />
       </li>
     </ul>
   );
